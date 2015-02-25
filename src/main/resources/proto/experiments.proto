@@ -1,0 +1,15 @@
+package experiments;
+
+option java_package = "com.adjectivecolournoun.protobuf.experiments";
+
+message Hypothesis {
+    required string id = 1;
+}
+
+message Experiment {
+    required string id = 1;
+}
+
+message ExperimentalVerification {
+    required string id = 1;
+}
